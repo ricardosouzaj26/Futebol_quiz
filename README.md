@@ -20,7 +20,7 @@ Um jogo simples em **Python** onde o jogador deve **adivinhar a data (DDMMAAAA)*
 1. Certifique-se de ter o Python 3 instalado
 2. Clone o repositório ou baixe os arquivos, certifique-se de que o arquivo.json esteja na mesma pasta do arquivo.py  
 ```
-git clone [https://github.com/ricardosouzaj26/futebol-quiz.git](https://github.com/ricardosouzaj26/futebol-quiz.git)
+ git clone https://github.com/ricardosouzaj26/futebol_quiz.git
 ```
 3. No terminal, entre na pasta do projeto:
 ```
