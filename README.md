@@ -1,2 +1,28 @@
-# Futebol_quiz
-Jogo em Python onde o jogador deve adivinhar a data (DDMMAAAA) de eventos marcantes do futebol a partir de dicas. O programa usa JSON para armazenar os dados e oferece feedback visual por dígitos corretos ou incorretos. Ideal para praticar lógica e leitura de arquivos.
+# Futebol Quiz – Adivinhe a Data
+
+Um jogo simples em **Python** onde o jogador deve **adivinhar a data (DDMMAAAA)** de acontecimentos marcantes do futebol a partir de dicas.
+
+
+## Como funciona o jogo
+
+1. O programa escolhe aleatoriamente um evento do futebol.
+2. Uma dica é exibida (ex: título, conquista ou evento histórico).
+3. O jogador deve digitar a data no formato **DDMMAAAA**.
+4. O jogo mostra:
+   - ✅ para cada dígito correto
+   - ❌ para cada dígito incorreto
+5. O jogador tem **5 tentativas** para acertar a data completa.
+
+---
+
+## Como executar
+
+1. Certifique-se de ter o Python 3 instalado
+2. Clone o repositório ou baixe os arquivos, certifique-se de que o arquivo.json esteja na mesma pasta do arquivo.py
+3. No terminal, entre na pasta do projeto:
+```
+cd futebol_quiz
+```   
+Execute o jogo:
+```
+python futebol_quiz.py
