@@ -10,7 +10,8 @@ Um jogo simples em **Python** onde o jogador deve **adivinhar a data (DDMMAAAA)*
 3. O jogador deve digitar a data no formato **DDMMAAAA**.
 4. O jogo mostra:
    - ✅ para cada dígito correto
-   - ❌ para cada dígito incorreto
+   - ⬆️ quando o número digitado é **menor** que o correto  
+   - ⬇️ quando o número digitado é **maior** que o correto  
 5. O jogador tem **5 tentativas** para acertar a data completa.
 
 ---
