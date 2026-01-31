@@ -10,8 +10,10 @@ with open("data_futebol_quiz.json", encoding="utf8") as f:
 computer_c = random.choice(list(words.keys()))
 
 print("Que comecem os jogos!!")
+print("Adivinhe a data! DDMMAAAA")
+print("✅ dígito correto | ⬆️ menor que o correto | ⬇️ maior que o correto")
 print("#########################################")
-print("Adivinhe a data!")
+
 
 user_tries = MAX_TRIES
 win = False
@@ -36,8 +38,10 @@ while user_tries > 0 and not win:
         if user_answer[i] == computer_c[i]:
             check.append("✅")
             user_pontuation += 1
+        elif int(user_answer[i]) > int(computer_c[i]):
+            check.append("⬇️ ")
         else:
-            check.append("❌")
+            check.append("⬆️ ")
 
     print("Resposta:")
     print("|".join(check))
@@ -54,3 +58,5 @@ if win:
 else:
     print("Mais sorte na próxima vez!")
     print("A data correta era:", computer_c)
+
+
